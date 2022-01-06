@@ -10,6 +10,11 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
+ var newArray = [];
+ for(let property in objeto){
+   newArray.push([property, objeto[property]] );
+ }
+ return newArray
 }
 
 
@@ -18,6 +23,17 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+  let newObject = {};
+  for(let i = 0; i < string.length; i++){
+    if(newObject[string.charAt(i)] === undefined){  
+      counter = 0    
+      for(let r = 0; r < string.length; r++){
+        if(string.charAt(i) === string.charAt(r)) counter++;              
+      } 
+      newObject[string.charAt(i)] = counter       
+    }
+  }
+return newObject
 }
 
 
@@ -26,6 +42,15 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  let upperString = "",
+      lowerString = "";
+  for(let i = 0; i < s.length; i++){
+    let character = s.charAt(i);
+   (character === character.toUpperCase())
+   ?upperString += s.charAt(i)
+   :lowerString += s.charAt(i);
+  }
+  return upperString + lowerString;
 }
 
 
@@ -35,7 +60,8 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
-} 
+}
+
 
 
 function capicua(numero){
