@@ -1,0 +1,1 @@
+Array es uno de los objetos primitivos del lenguaje Javascript, se puede identificar porque sus valores se encuentran dentro de corchetes []. Los arrays almacenan valores de cualquier tipo separados por comas, cada valor tiene un index o índice determinado por su posicion dentro del mismo. 

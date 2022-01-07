@@ -1,0 +1,36 @@
+body {
+    background-image: url(https://previews.123rf.com/images/volkovslava/volkovslava1504/volkovslava150400200/39301565-dot-arri%C3%A8re-plan-multicolore-point-de-vecteur-pour-des-motifs-de-remplissage-fond-de-page-web-blog-t.jpg);
+}
+
+h1 {
+    color:midnightblue;
+}
+li {
+    list-style: none;
+}
+
+img {
+    width: 400px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 140rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.thirdDiv {
+    width: 500px;
+    height: 600px;
+    background-color: moccasin;
+    padding: 50px;
+    border: solid 1px black;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}

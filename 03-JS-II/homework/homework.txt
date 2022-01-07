@@ -1,0 +1,12 @@
+For Loop, es una función que se puede aplicar a cualquier elemento iterable, como un objeto, un array o una cadena de texto por ejemplo, para poder iterar sobre los valores  que estan dentro del elemento. recibe tres datos, valor inicial de la variable, valor final de la variable, y la condición de cambio de variable que puede ser sumando o restando de uno en uno o como se establezca.
+
+Operadores lógicos And &&, Or ||, Not!.
+
+El operador lógico AND se usa para validar que dos condiciones se cumplan para validar verdadero, si una de ellas no se cumple, validará falso. 
+
+El operador lógico OR se utiliza para validar que una de las dos condiciones se cumpla, en este caso solo validará falso si ninguna condición se cumple.
+
+El operador lógio NOT se utiliza para negar una afirmación, o mejor dicho revertir su valor, es decir lo falso lo vuelve verdadero y viceversa. Por lo que esta condición validará como verdadero si determinada condición no se cumple, o como falso si dicha condición se cumple.
+
+
+

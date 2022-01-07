@@ -1,0 +1,1 @@
+Funciones callback son funciones que se utilizan como argumento en otra fución, para luego invocarse dentro de la misma y realizar una determinada tarea. Aunque parezca un término complicado es más fácil de entender que la pelicula inception, y en la práctica no es tan complicado,

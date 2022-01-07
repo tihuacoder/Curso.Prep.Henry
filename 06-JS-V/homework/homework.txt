@@ -1,0 +1,3 @@
+Prototype un prototipo no es mas que una replica de un objeto el cual hereda las propiedades y métodos de su constructor o modelo padre aunque esto no significa que pueda tener propiedades  o metodos distintas del de su constructor. Es decir que cuando instanciamos una clase estamos creando un prototipo del mismo. 
+
+La función constructora de clases es la forma como Javascript aborda la POO, es la funcion que almacena las propiedades y métodos de una clase, el cual al ser llamado transfiere esos valores al nuevo "objeto" creado, aunque realmente no se cree un objeto como tal, sino que simplemente define los valores y métodos que tendra esta nueva instancia de clase.
