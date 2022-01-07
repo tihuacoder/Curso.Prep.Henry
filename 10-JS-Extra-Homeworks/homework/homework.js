@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+const { agregarItemAlFinalDelArray } = require("../../04-JS-III/homework/homework");
+
 function deObjetoAmatriz(objeto){
   // Escribe una función que convierta un objeto en una matriz, donde cada elemento representa 
   // un par clave-valor en forma de matriz.
@@ -60,6 +62,9 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
+  let strToArray = str.split(" "),
+      reverseArray = strToArray.map(item => item.split("").reverse().join(""));
+      return reverseArray.join(" ")
 }
 
 
@@ -69,13 +74,17 @@ function capicua(numero){
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de 
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
-}
+  let numToString = numero.toString();
+  if (numToString == numToString.split("").reverse().join(""))return "Es capicua";
+  else return "No es capicua";
+  }
 
 
 function deleteAbc(cadena){
   //Define una función que elimine las letras "a", "b" y "c" de la cadena dada 
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
+  return cadena.replace(/[abc]/g, "")
 }
 
 
@@ -83,6 +92,8 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
+
+  return arr.sort((a,b) => a.length - b.length)
 }
 
 
@@ -92,6 +103,10 @@ function buscoInterseccion(arreglo1, arreglo2){
   //Si no tienen elementos en común, retornar un arreglo vacío.
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
   //Escribe tu código aquí  
+  let set1 = new Set(arreglo1),
+      set2 = new Set(arreglo2),
+      intersection = new Set([...set1].filter(e => set2.has(e)));
+      return Array.from(intersection)
 }
 
 

@@ -1,0 +1,19 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+Respuestas:
+
+1) Variables es un contenedor donde almacenamos una porción de datos, para dar un ejemplo sencillo, una variable es como un recipiente donde podemos colocar prácticamente cualquier cosa y a la cual podremos acceder de una manera sencilla siempre y cuando cumplamos con unas determinadas normas.
+
+2) Strings es un tipo de dato dentro de los lenguajes de programación, se caracteriza principalmente por encontrarse rodeado de comillas dobles, sencillas e incluso invertidas; generalmente se utiliza para guardar información de tipo texto aunque tambien puede contener numeros o caracteres especiales. como nombres, o para mostrar algún mensaje en la consola o al usuario. 
+
+3) Funciones son porciones de códigos que realizan una deterinada tarea de forma independiente al resto del programa, tienen la característica de poder ser reutilizables, ademas tambien pueden recibir argumentos los cuales son datos que van a ser utilizados dentro de la misma, así como devolver algun resultado a través de la palabra reservada "return".
+
+4) Las declaraciones IF se utilizan para verificar si se cumple o no determinada condición para proceder a ejecutar o no una fracción de código.
+
+5) Valores booleanos son un tipo de dato el cual solo permite dos opciones, true o false los cuales pueden ser utilizados en operaciones relacionales es decir si alguna variable es igual a otra o no, o para ser utilizados en expresiones lógicas a través de los operadores if, if not, and, or. 
